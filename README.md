@@ -1,7 +1,7 @@
 # Gemini + Llama UPskill Setup
 
 Minimal setup to generate and evaluate skills using **Gemini Pro as teacher**
-and **Llama (via Ollama) as student**. No Claude proxy needed.
+and **Llama (via Ollama) as student**.
 
 ## Files
 
