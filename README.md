@@ -135,11 +135,11 @@ Generating skill with google.gemini-2.5-pro...
 
   google.gemini-2.5-pro
     baseline   ███████░░░░░░░░░░░░░    37%
-    with skill ███████████████████░    97%  (+60%)
+    with skill ██████████░░░░░░░░░░    51%  (+14%)
 
   generic.llama3.2:latest
-    baseline   ███████░░░░░░░░░░░░░    37%
-    with skill ██████████████████░░    89%  (+51%)
+    baseline   █████░░░░░░░░░░░░░░░    23%
+    with skill ███████████████░░░░░    77%  (+54%)
 
 Saved to ./skills/extract-validate-user-info
 ```
