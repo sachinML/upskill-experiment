@@ -63,11 +63,9 @@ This fixes four issues in the installed upskill package:
 
 ### 4. Set up Ollama (student model)
 
-Ollama runs LLMs locally. Install it from [https://ollama.com](https://ollama.com) then:
-
 ```bash
 # Pull the model you want to use as student
-ollama pull llama3.2          # 3B — fast, lightweight
+ollama pull llama3.2          # 3B: fast, lightweight
 
 # Start the Ollama server (keep this running in a separate terminal)
 ollama serve
@@ -87,7 +85,7 @@ ollama list
 ```
 
 **The `generic` provider** in `fastagent.secrets.yaml` tells FastAgent to use
-any OpenAI-compatible endpoint — Ollama exposes one at `http://localhost:11434/v1`.
+any OpenAI-compatible endpoint. Ollama exposes one at `http://localhost:11434/v1`.
 
 ## Usage
 
