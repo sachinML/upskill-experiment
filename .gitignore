@@ -1,0 +1,46 @@
+# Secrets (keep fastagent.secrets.yaml.example in repo)
+fastagent.secrets.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+upsk-exp/
+
+# Fast Agent local state
+.fast-agent/
+
+# Experiment / batch run outputs
+runs/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment files
+.env
+.env.local
+*.local
