@@ -16,6 +16,12 @@ and **Llama (via Ollama) as student**. No Claude proxy needed.
 | `fastagent.secrets.yaml.example` | Template for API keys. copy to `fastagent.secrets.yaml`             |
 
 
+## Requirements
+
+- Python 3.13+
+- [Ollama](https://ollama.com) (for local student model)
+- Gemini API key (free at https://aistudio.google.com/apikey)
+- 
 ## Setup
 
 ### 1. Install dependencies
@@ -32,7 +38,6 @@ cp fastagent.secrets.yaml.example fastagent.secrets.yaml
 ```
 
 Edit `fastagent.secrets.yaml` and add your Gemini API key
-(get a free key at [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey)):
 
 ```yaml
 google:
