@@ -21,7 +21,7 @@ and **Llama (via Ollama) as student**.
 - Python 3.13+
 - [Ollama](https://ollama.com) (for local student model)
 - Gemini API key (free at https://aistudio.google.com/apikey)
-- 
+  
 ## Setup
 
 ### 1. Install dependencies
