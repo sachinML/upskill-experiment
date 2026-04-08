@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "generated_by": "google.gemini-2.5-pro",
+    "generated_at": "2026-04-08T16:58:39.046964Z",
+    "source_task": "Task: Extract and validate structured user information from unstructured text.\n\nGoal:\nReturn only strict JSON with the fields:\n- name (string or null)\n- age (integer or null)\n- email (string or null)\n\nRules:\n1. Extract name, age, and email from the input text.\n2. If a field is missing, return null.\n3. Do not hallucinate missing values.\n4. Age must be an integer only if explicitly present as digits. If age is written in words or is ambiguous, return null.\n5. Email must look like a valid email address. If invalid, return null.\n6. Output must be valid JSON only, with no explanation or extra text.\n7. Use exactly this schema:\n\n{\n  \"name\": \"...\",\n  \"age\": ...,\n  \"email\": \"...\"\n}",
+    "test_pass_rate": 0.5142857142857142,
+    "license": null,
+    "compatibility": null
+  },
+  "tests": []
+}

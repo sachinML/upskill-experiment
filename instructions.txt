@@ -1,0 +1,22 @@
+Task: Extract and validate structured user information from unstructured text.
+
+Goal:
+Return only strict JSON with the fields:
+- name (string or null)
+- age (integer or null)
+- email (string or null)
+
+Rules:
+1. Extract name, age, and email from the input text.
+2. If a field is missing, return null.
+3. Do not hallucinate missing values.
+4. Age must be an integer only if explicitly present as digits. If age is written in words or is ambiguous, return null.
+5. Email must look like a valid email address. If invalid, return null.
+6. Output must be valid JSON only, with no explanation or extra text.
+7. Use exactly this schema:
+
+{
+  "name": "...",
+  "age": ...,
+  "email": "..."
+}

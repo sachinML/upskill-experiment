@@ -1,0 +1,14 @@
+# FastAgent configuration
+#
+# IMPORTANT: default_model must be set here.
+# Without it, FastAgent falls back to its hardcoded default (gpt-5-mini / OpenAI Responses API)
+# which requires an OPENAI_API_KEY. This line prevents that.
+
+default_model: google.gemini-2.5-pro
+
+logger:
+  progress_display: true
+  show_chat: false
+  show_tools: false
+  truncate_tools: true
+  streaming: markdown
