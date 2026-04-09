@@ -147,8 +147,8 @@ Generating skill with google.gemini-2.5-pro...
 
 Result on Unseen 12 cases from unseen_tests.json
 eneric.llama3.2:latest
-baseline   ███░░░░░░░░░░░░░░░░░    ~17%
-with skill █████████████████░░░    ~83%  (+67%)
+baseline   ███░░░░░░░░░░░░░░░░░    17%
+with skill █████████████████░░░    83%  (+67%)
 
 Saved to ./skills/extract-validate-user-info
 ```
