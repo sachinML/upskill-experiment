@@ -1,0 +1,50 @@
+[
+  {
+    "input": "Profile card -> full_name: Aarohi Sharma | years: 27 | primary_contact: aarohi.s@workmail.io",
+    "expected": { "contains": ["Aarohi", "27", "aarohi.s@workmail.io"] }
+  },
+  {
+    "input": "Candidate record: Name Rahul Verma; mail rahul.verma@sample.org; age not disclosed.",
+    "expected": { "contains": ["Rahul", "rahul.verma@sample.org", "null"] }
+  },
+  {
+    "input": "Emergency contact sheet: Priyansh, 34. Ref code 8821. Email: priyansh@contact.net",
+    "expected": { "contains": ["Priyansh", "34", "priyansh@contact.net"] }
+  },
+  {
+    "input": "User metadata { person = Naina ; age = twenty six ; email = naina@abc.com }",
+    "expected": { "contains": ["Naina", "naina@abc.com", "null"] }
+  },
+  {
+    "input": "Reach out to dev-team alias meera.ops@infra.ai ; owner Meera ; batch id 2024",
+    "expected": { "contains": ["Meera", "meera.ops@infra.ai", "null"] }
+  },
+  {
+    "input": "\"Kunal\" submitted the form. Stated age: 0031. Contact: kunal+test@domain.co",
+    "expected": { "contains": ["Kunal", "31", "kunal+test@domain.co"] }
+  },
+  {
+    "input": "Entry: employee=Sara, age range=25-26, email=sara@demo.com",
+    "expected": { "contains": ["Sara", "sara@demo.com", "null"] }
+  },
+  {
+    "input": "Directory row: [Name: Tushar] [Age: 44] [Mail: invalid@domain]",
+    "expected": { "contains": ["Tushar", "44", "null"] }
+  },
+  {
+    "input": "First listed person -> Iqra (iqra@mail.com). Second listed person -> Mohit, 29, mohit@mail.com.",
+    "expected": { "contains": ["Iqra", "iqra@mail.com", "null"] }
+  },
+  {
+    "input": "CRM export: customer_name=Devansh | years_old=41 | contact_email=devansh@crm.io | zip=560001",
+    "expected": { "contains": ["Devansh", "41", "devansh@crm.io"] }
+  },
+  {
+    "input": "Plain note: Anaya joined recently. Her inbox is anaya@startup.dev. Nothing about age here.",
+    "expected": { "contains": ["Anaya", "anaya@startup.dev", "null"] }
+  },
+  {
+    "input": "Support log #77: user Ravi, age field recorded as 3O, email ravi@helpdesk.com",
+    "expected": { "contains": ["Ravi", "ravi@helpdesk.com", "null"] }
+  }
+]
