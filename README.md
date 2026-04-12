@@ -1,4 +1,5 @@
 # Gemini + Llama UPskill Setup
+here is the blog you can refer for details: [link](medium.com/@sjha979/understanding-upskill-by-hugging-face-with-a-custom-test-driven-setup-cabdaf815185)
 
 Minimal setup to generate and evaluate skills using **Gemini Pro as teacher**
 and **Llama (via Ollama) as student**.
